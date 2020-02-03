@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #777;
+  scroll-behavior: smooth;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #ff000052, #ffa500a6),
+    url(../images/fall-leave.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  
+}
+
+.first-page{
+  
+   
+  
+}
+.about-me{
+  position: absolute;
+  top: 67.5%;
+  left: 45%;
+
+}
+
+.experiences{
+  position: absolute;
+  top: 50.5%;
+  left: 24%;
+}
+
+.education{
+  position: absolute;
+  top: 18.5%;
+  left: 80%;
+}
+.hobbies{
+  position: absolute;
+  top: 50.5%;
+  left: 65%;
+}
+.my-contact{
+  
+  position: absolute;
+  top: 18.5%;
+  left: 10%;
+
+}
+
+
+.fa-canadian-maple-leaf:before{
+  font-size: 800%;
+  color: #ff9444;
+}
+.location-about-me{
+  position: absolute;
+    top: 44%;
+    left: 23.4%;
+}
+.location-experiences{
+  position: absolute;
+    top: 47%;
+    left: 17%;
+}
+.location-education{
+  position: absolute;
+  top: 44%;
+  left: 25%;
+}
+.location-hobbies{
+  position: absolute;
+  top: 47%;
+  left: 28%;
+}
+.location-contact-me{
+  position: absolute;
+  top: 45%;
+  left: 20%;
+
+}
+a{
+  color: white;
+}

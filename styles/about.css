@@ -1,0 +1,37 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #777;
+    scroll-behavior: smooth;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #f3e9e900, #f3f0eab8),
+      url(../images/desert.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    
+  }
+
+.my-pic{
+    border: 3px inset #f8f6ed96;
+    position: absolute;
+    top: 22%;
+    left: 57%;
+    width: 140px;
+    height: 190px;
+    margin: 20px 10px 20px 70px;
+}
+
+
+.content{
+    border: 3px inset #f8f6ed96;
+    color: #f8f6ed;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    margin: 20px 20px 20px 198px;
+    background-color: #6d4009a6;
+    padding: 6px 0px 6px 8px;
+}
